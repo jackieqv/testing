@@ -4,16 +4,20 @@ title: "Online Shop"
 ---
 **In Test Mode**
 
-I am trying to link an online shop for my greeting cards here.
+I sell prints of my watercolour post cards here on my online shop. Shipping only in Germany.
 
+For more artsy stuff, visit my Instagram: <https://www.instagram.com/happyknotscologne/> :sparkling_heart:
 
-<img src="{{site.baseurl | prepend: site.url}}assets/images/starry-night.jpg"/>
+**Greeting card**
+
+<img src="{{site.baseurl | prepend: site.url}}/assets/images/starry-night.png"/>
 
 <button class="snipcart-add-item"
   data-item-id="starry-night"
+  data-item-quantity="1"
   data-item-price="15.00"
   data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-  data-item-image="/assets/images/starry-night.jpg"
+  data-item-image="{{site.baseurl | prepend: site.url}}/assets/images/starry-night.png"
   data-item-name="The Starry Night">
   Add to cart
 </button>
